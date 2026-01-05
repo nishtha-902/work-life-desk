@@ -11,8 +11,6 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 bg-white">
       <div className="flex items-center h-20 mx-4 md:mx-12 lg:mx-24 relative">
-        
-        {/* Hamburger (Mobile Only) */}
         <button
           className="md:hidden z-50"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -20,7 +18,6 @@ const Header = () => {
           {menuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
 
-        {/* Logo */}
         <div
           className="
             absolute left-1/2 -translate-x-1/2
@@ -30,7 +27,6 @@ const Header = () => {
           <img src={logoworklife} alt="Worklife Logo" className="h-12" />
         </div>
 
-        {/* Desktop / Tablet Tabs */}
         <div className="hidden md:flex ml-auto bg-[#D9D9D9] rounded-4xl items-center py-3 px-3 gap-2">
           {tabs.map((tab) => (
             <button
@@ -51,8 +47,7 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
-      {menuOpen && (
+     {menuOpen && (
         <div className="md:hidden bg-[#FFFAE4] px-6 pb-6">
           <div className="bg-[#D9D9D9] rounded-2xl flex flex-col gap-3 p-4">
             {tabs.map((tab) => (
