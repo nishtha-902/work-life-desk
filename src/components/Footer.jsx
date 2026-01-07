@@ -37,13 +37,13 @@ const Footer = () => {
       <div className="bg-gray-500 sm:w-[70%] h-[1px] mx-32 mt-16"></div>
       <div className="flex flex-col sm:flex-row justify-evenly mt-8">
         <div className="flex justify-evenly gap-6">
-          <a href="#" className="nunito text-sm">
+          <a href="#" className="nunito text-sm hover:text-[#b96806]">
             Startups
           </a>
-          <a href="#" className="nunito text-sm">
+          <a href="#" className="nunito text-sm hover:text-[#b96806]">
             Property Owners
           </a>
-          <a href="#" className="nunito text-sm">
+          <a href="#" className="nunito text-sm hover:text-[#b96806]">
             Contact Us
           </a>
         </div>

@@ -2,8 +2,8 @@ import React from "react";
 
 const Rent = () => {
   return (
-    <section className="mt-24 sm:mt-48 mx-2 sm:mx-12 lg:mx-48 flex flex-col justify-center items-center">
-      <p className="nunito text-[30px] lg:mb-4 font-bold sm:text-[30px] lg:text-[40px] text-center">
+    <section className="mt-24 sm:mt-36 mx-2 sm:mx-12 lg:mx-48 flex flex-col justify-center items-center">
+      <p className="nunito text-[30px] lg:mb-2 font-bold sm:text-[30px] lg:text-[40px] text-center">
         Rent an Office
       </p>
       <p className="nunito text-[14px] my-8 lg:mb-16 sm:text-[22px] lg:text-[20px] w-full md:w-[70%] text-center">
